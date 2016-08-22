@@ -18,6 +18,11 @@ In summation:
 3. muse-player -l 4999 (in a different window because it's blocking obvs)
 4. cry
 
+
+on windows:
+cd C:\Program Files (x86)\Muse
+muse-io --device Muse-F488 --osc.udp://localhost:5000
+
 '''
 import subprocess
 import re
